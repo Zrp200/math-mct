@@ -1,2 +1,2 @@
-math-average
+math-mct
 ============
