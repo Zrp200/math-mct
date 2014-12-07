@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+- 2.0.0
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: rubygems
+  api_key:
+    secure: SSkSG2R6Ap7r2Yl7EnJlF43+TSndhQZqarIyx1qUtJqTjNS3i9P6ZLvk0tcuIculQl3VTppCVnobNlKx9z1fBQ5rzXz4BpjQERKAhkQ8qswrXMo+lQEjVWOTUCzCjn6N53VnIipwTmUx69e82XzC6XUQu1dzFgdDStxjdDX6+UU=
+  gem: "'"
+  on:
+    tags: true
+    repo: Zrp200/math-mct
