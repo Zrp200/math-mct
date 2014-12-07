@@ -3,7 +3,7 @@ Gem::Specification.new do |gem|
   gem.files = Dir.glob "lib/*.rb"
   gem.test_files = Dir.glob "spec/**/*.rb"
   gem.author = "Zachary Perlmutter"
-  gem.summary = "Adds #mean, #mode, and #median to the Math module"
+  gem.summary = "Adds measures of central tendency  to the Math module"
   gem.license = "MIT"
   gem.extra_rdoc_files = Dir.glob "*.md"
   gem.version = case ENV['TRAVIS']
