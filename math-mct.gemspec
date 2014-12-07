@@ -1,5 +1,5 @@
 Gem::Specification.new do |gem|
-  gem.name = "math-mean"
+  gem.name = "math-mct"
   gem.files = Dir.glob "lib/*.rb"
   gem.test_files = Dir.glob "spec/**/*.rb"
   gem.author = "Zachary Perlmutter"
